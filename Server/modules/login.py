@@ -23,7 +23,7 @@ nachricht = "begingame;"
 def autoexses(self):
     #s.close()
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.connect((ip, 5000))
+    s.connect((ip, 25566))
     
     try:
         while True:
