@@ -1,13 +1,3 @@
 # CastClub
 
-[] - Integrate Framework 
 [] - 
-[] -
-[] - 
-[] -
-[] - 
-[] -
-[] - 
-[] -
-[] - 
-[] -
