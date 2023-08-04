@@ -39,7 +39,7 @@ screen = pygame.display.set_mode((640, 480))
 clock = pygame.time.Clock()
 pygame.display.set_caption("Backpackmon")
 spielaktiv = True
-player = pygame.image.load("gameneeds/p1.png").convert()
+player = pygame.image.load("Client/gameneeds/p1.png").convert()
 player.set_colorkey((0, 0, 0))
 player_big = pygame.transform.scale(player, (60, 60))
 
