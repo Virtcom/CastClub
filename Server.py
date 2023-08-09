@@ -38,7 +38,7 @@ def get_connection(threadnummer):
                     break
                 dat = data.decode().split(";")
                 if dat[0] == "checkpass":
-                    pfad="Server/users/"+ dat[1] + "/passwort.txt"
+                    pfad="users/"+ dat[1] + "/passwort.txt"
                     with open(pfad, "r") as passwordhashdat:
                         passwordhash = passwordhashdat.readlines()
                         #print(str(passwordhash))
@@ -48,7 +48,7 @@ def get_connection(threadnummer):
                             global users
                             users.append(dat[1])
                 if dat[0] == "loggin":
-                    checkpath = "Server/users/" + dat[1]
+                    checkpath = "users/" + dat[1]
                     exsisting = os.path.exists(checkpath)
                     if exsisting == True:
                         komm.send(login.logginpasswort.encode())
@@ -80,7 +80,7 @@ def ingameconnection(threadnummer):
                     break
                 dat = data.decode().split(";")
                 if dat[0] == "checkpass":
-                    pfad="Server/users/"+ dat[1] + "/passwort.txt"
+                    pfad="users/"+ dat[1] + "/passwort.txt"
                     with open(pfad, "r") as passwordhashdat:
                         passwordhash = passwordhashdat.readlines()
                         #print(str(passwordhash))
@@ -88,7 +88,7 @@ def ingameconnection(threadnummer):
                         if passwordhash[0] == dat[2]:
                             komm.send(login.entering_game.encode())
                 if dat[0] == "loggin":
-                    checkpath = "Server/users/" + dat[1]
+                    checkpath = "users/" + dat[1]
                     exsisting = os.path.exists(checkpath)
                     if exsisting == True:
                         komm.send(login.logginpasswort.encode())
