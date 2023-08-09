@@ -64,7 +64,7 @@ def start_game():
             frames=1
         player = pygame.image.load("gameneeds/walk_" + walk + "/" + str(spr) + ".png").convert_alpha()
         #player.set_colorkey((0, 0, 0))
-        player_big = pygame.transform.scale(player, (60, 60))
+        player_big = pygame.transform.scale(player, (64, 64))
         screen.fill("white")
         screen.blit(player_big, (x, y))
         clock.tick(60)

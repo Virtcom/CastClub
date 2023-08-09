@@ -1,0 +1,50 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Plants.tsx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "#grund": {
+            "dynamicWrapping": true
+        },
+        "Plants.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "test.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 654.5454545454547,
+                "y": 9.090909090909008
+            }
+        },
+        "test.tmx#grund": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "/home/bonbon/Dokumente/GitHub/CastClub/grund",
+    "map.height": 10,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "map.width": 10,
+    "openFiles": [
+        "test.tmx",
+        "Plants.tsx"
+    ],
+    "project": "lobby.tiled-project",
+    "recentFiles": [
+        "test.tmx",
+        "Plants.tsx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.type": 1
+}
